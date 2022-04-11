@@ -1,0 +1,7 @@
+.inp {
+    width: 1200px;
+    max-width: 90vw;
+    border: 2px solid chocolate;
+    padding: 5px 15px;
+    margin: 5px 0;
+}
