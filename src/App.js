@@ -1,6 +1,6 @@
 import './App.css';
 import {useDispatch, useSelector} from "react-redux";
-import {useEffect, useLayoutEffect, useState} from "react";
+import {useEffect, useState} from "react";
 import MyInput from "./UI/myInput/MyInput";
 import {getRepo} from "./api/service";
 import Cards from "./components/cards/Cards";
@@ -21,9 +21,11 @@ function App() {
 
     useEffect(() => {
         UseDebouncedRequest(search)
+
         if(search === '') {
             dispatch(clearResAC())
         }
+
     }, [search])
 
 

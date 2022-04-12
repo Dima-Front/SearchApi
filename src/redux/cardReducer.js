@@ -1,4 +1,4 @@
-import {ADD_RESULT, CLEAR_RESULT, IS_FETCHING, SET_CURRENT_PAGE} from "./cardsActions";
+import {ADD_RESULT, CLEAR_RESULT, IS_FETCHING} from "./cardsActions";
 
 
 let initialState = {
